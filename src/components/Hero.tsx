@@ -8,15 +8,15 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Animated Background */}
-      <div className="absolute inset-0 hero-gradient" />
+      {/* Hero Background Image - More visible */}
       <div 
-        className="absolute inset-0 bg-cover bg-center opacity-10"
+        className="absolute inset-0 bg-cover bg-center opacity-40"
         style={{ backgroundImage: `url(${heroBackground})` }}
       />
       
-      {/* Dark overlay for better text contrast */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background/80" />
+      {/* Gradient overlay - focuses attention on center content while showing background on edges */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background/70" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,hsl(222_47%_5%/0.6)_100%)]" />
       
       {/* Animated particles effect */}
       <div className="absolute inset-0 overflow-hidden">
