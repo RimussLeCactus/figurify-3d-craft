@@ -9,11 +9,14 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute inset-0 hero-gradient opacity-90" />
+      <div className="absolute inset-0 hero-gradient" />
       <div 
-        className="absolute inset-0 bg-cover bg-center opacity-20"
+        className="absolute inset-0 bg-cover bg-center opacity-10"
         style={{ backgroundImage: `url(${heroBackground})` }}
       />
+      
+      {/* Dark overlay for better text contrast */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background/80" />
       
       {/* Animated particles effect */}
       <div className="absolute inset-0 overflow-hidden">
@@ -46,8 +49,9 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
+              variant="premium"
               onClick={() => navigate("/configurator")}
-              className="bg-gradient-to-r from-primary via-accent to-gold hover:opacity-90 smooth-transition text-lg font-semibold group"
+              className="text-lg font-semibold group"
             >
               <Upload className="mr-2 h-5 w-5 group-hover:scale-110 smooth-transition" />
               Créer ma figurine
@@ -57,7 +61,7 @@ const Hero = () => {
               size="lg" 
               variant="outline" 
               onClick={() => navigate("/faq")}
-              className="border-primary/30 hover:border-accent smooth-transition text-lg"
+              className="text-lg"
             >
               Voir des exemples
             </Button>

@@ -49,7 +49,8 @@ const Navbar = () => {
             ))}
             <Button 
               onClick={() => navigate("/configurator")}
-              className="bg-gradient-to-r from-primary to-accent hover:opacity-90 smooth-transition"
+              variant="premium"
+              className="font-semibold"
             >
               Commencer
             </Button>
@@ -88,7 +89,8 @@ const Navbar = () => {
                 navigate("/configurator");
                 setIsOpen(false);
               }}
-              className="w-full bg-gradient-to-r from-primary to-accent"
+              variant="premium"
+              className="w-full font-semibold"
             >
               Commencer
             </Button>
