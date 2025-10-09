@@ -26,7 +26,7 @@ const Navbar = () => {
             onClick={() => navigate("/")}
             className="flex items-center gap-3 smooth-transition hover:opacity-80"
           >
-            <img src={logo} alt="FigurMy" className="h-12 w-auto" />
+            <img src={logo} alt="FigurMy" className="h-16 w-auto" />
             <span className="text-2xl font-display font-bold gradient-text hidden sm:block">
               FigurMy
             </span>
