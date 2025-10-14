@@ -27,7 +27,7 @@ const Navbar = () => {
             className="flex items-center gap-3 smooth-transition hover:opacity-80"
           >
             <img src={logo} alt="FigurMy" className="h-16 w-auto" />
-            <span className="text-xl font-retro gradient-text hidden sm:block">
+            <span className="text-xl font-retro text-accent hidden sm:block">
               FigurMy
             </span>
           </button>
