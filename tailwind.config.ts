@@ -16,7 +16,7 @@ export default {
       fontFamily: {
         sans: ["Inter", "sans-serif"],
         display: ["Orbitron", "sans-serif"],
-        retro: ["Press Start 2P", "cursive"],
+        retro: ['"Press Start 2P"', "cursive"],
       },
       colors: {
         border: "hsl(var(--border))",
