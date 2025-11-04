@@ -1,5 +1,5 @@
 import { ConfigOptions } from "@/pages/Configurator";
-import { Euro } from "lucide-react";
+import { Banknote } from "lucide-react";
 
 type PricePreviewProps = {
   config: ConfigOptions;
@@ -50,15 +50,15 @@ const PricePreview = ({ config }: PricePreviewProps) => {
         {config.engraving && (
           <div className="flex items-center justify-between pb-4 border-b border-primary/20">
             <span className="text-muted-foreground">Gravure</span>
-            <span className="text-xs text-accent">+ 12.00 €</span>
+            <span className="text-xs text-accent">+ 12.00 CHF</span>
           </div>
         )}
         
         <div className="flex items-center justify-between pt-4">
           <div className="flex items-center gap-2">
-            <Euro className="h-6 w-6 text-gold" />
-            <span className="text-2xl font-display font-bold gradient-text">
-              {calculatePrice()} €
+            <Banknote className="h-6 w-6 text-primary" />
+            <span className="text-2xl font-display font-bold text-primary">
+              {calculatePrice()} CHF
             </span>
           </div>
           <span className="text-xs text-muted-foreground">
