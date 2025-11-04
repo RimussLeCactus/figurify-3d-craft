@@ -94,7 +94,7 @@ const FAQ = () => {
             </p>
             <a 
               href="mailto:support@figurmy.com"
-              className="inline-block px-6 py-3 bg-gradient-to-r from-primary to-accent rounded-lg font-semibold hover:opacity-90 smooth-transition"
+              className="inline-block px-6 py-3 bg-gradient-to-r from-primary to-accent text-black rounded-lg font-semibold hover:opacity-90 smooth-transition"
             >
               Contactez-nous
             </a>
