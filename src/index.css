@@ -54,7 +54,7 @@ All colors MUST be HSL.
     --gradient-primary: linear-gradient(135deg, hsl(193 85% 55%) 0%, hsl(222 47% 35%) 100%);
     --gradient-hero: linear-gradient(135deg, hsl(222 47% 5%) 0%, hsl(222 47% 10%) 50%, hsl(193 85% 15%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(222 47% 8% / 0.8) 0%, hsl(222 47% 12% / 0.6) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(193 85% 55%) 0%, hsl(45 93% 58%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(193 85% 55%) 0%, hsl(222 47% 8%) 100%);
 
     --sidebar-background: 222 47% 8%;
     --sidebar-foreground: 210 40% 98%;
@@ -101,7 +101,7 @@ All colors MUST be HSL.
   
   /* Gradient text */
   .gradient-text {
-    background: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(var(--gold)) 100%);
+    background: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(222 47% 8%) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
