@@ -70,7 +70,7 @@ const Configurator = () => {
 
             <Button
               size="lg"
-              className="w-full bg-gradient-to-r from-primary via-accent to-gold hover:opacity-90 smooth-transition text-lg font-semibold"
+              className="w-full text-lg font-semibold"
               onClick={handleAddToCart}
             >
               <ShoppingCart className="mr-2 h-5 w-5" />
