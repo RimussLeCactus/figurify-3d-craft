@@ -43,7 +43,7 @@ const Features = () => {
               className="glass-card p-6 rounded-2xl smooth-transition hover:scale-105 glow-border animate-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-br from-primary to-accent mb-4">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-br from-primary to-background mb-4">
                 <feature.icon className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-display font-bold mb-3">{feature.title}</h3>
